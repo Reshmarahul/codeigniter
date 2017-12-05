@@ -1,0 +1,145 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.imgsize {
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    color:#9E0A0A;
+    text-align: center;
+}
+
+h2{
+    color:#36369A;
+    font-weight: bold;
+}
+
+label{
+    color:#651A1A;
+    font-weight: bold;
+    float:left;
+    padding-left:325px;
+}
+
+#login_button{
+    color:green;
+}
+
+
+
+.logbox{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+span{
+   color :red;
+}
+
+.p3{
+    font-weight: bold;
+    width:10%;
+}
+
+summary{
+    color:black;
+    font-weight: bold;
+}
+
+#header{
+    background-color:grey;
+    height: 135px;
+    float: left;
+    width: 100%;
+    /* border-bottom:solid 1px #ccc; */
+}
+
+#footer{
+    background-color: grey;
+    /* position:absolute;*/
+    /* bottom:0px;  */
+    width:100%;
+    height:50px;
+    float: left;
+}
+
+#content{
+    
+   height: calc(100% - 185px);
+   float: left;
+   overflow: auto;
+   width: 100%;
+}
+
+#autocomplete {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+}
+
+#locationField {
+    position: relative;
+    width: 480px;
+    height: 20px;
+    margin-bottom: 2px;
+  }
+
+#address {
+    border: 1px solid #000090;
+    background-color: #f0f0ff;
+    width: 480px;
+    padding-right: 2px;
+}
+
+#address td {
+    font-size: 10pt;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+}
+
+.field {
+    width: 99%;
+}
+
+.slimField {
+    width: 80px;
+}
+
+.wideField {
+    width: 200px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
